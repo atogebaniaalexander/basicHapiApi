@@ -1,0 +1,23 @@
+{
+  "name": "basic-hapi-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/src/index.js",
+    "compile": "tsc -p ./tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.12",
+    "dotenv": "^16.4.5",
+    "hapi-graceful-pm2": "^1.0.17",
+    "joi": "^17.13.3"
+  }
+}
